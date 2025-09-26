@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "MyCloud-Client",
+    "slug": "MyCloud-Client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/MyCloud-logo.png",
+    "scheme": "MyCloud-Client",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/MyCloud-logo.png"
+        
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/MyCloud-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/MyCloud-logo.png",
+          "imageWidth": 150,
+          "resizeMode": "contain"
+          
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
