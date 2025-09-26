@@ -26,7 +26,7 @@ const Index = () => {
    <SafeAreaView className="bg-grey h-full">
      <ScrollView contentContainerStyle={{height:'100%'}}>
         <LinearGradient
-            colors={['#FFFFFF', '#B33791']}
+            colors={['#FFFFFF', '#56cfe1']}
             start={{ x: 0.5, y: 0.5 }}
             end={{ x: 1, y: 1 }} 
             className="w-full items-center justify-center h-full gap-y-3"

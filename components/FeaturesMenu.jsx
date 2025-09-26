@@ -9,7 +9,7 @@ const FeaturesMenu = ({title, icon}) => {
             source={icon}
             resizeMode='contain'
             className="w-7 h-7"
-            tintColor="#B33791"
+            tintColor="#56cfe1"
         />
         <Text className="font-mmedium text-lg text-black">{title}</Text>
     </TouchableOpacity>
